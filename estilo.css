@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Charis+SIL:ital,wght@0,400;0,700;1,400;1,700&family=Inter:wght@400;700&family=Merriweather:ital,wght@0,300;0,400;1,300;1,400;1,900&family=Mingzat&family=Poppins:ital,wght@0,100;0,400;0,600;1,100;1,200;1,300&family=Ubuntu:wght@300;400;500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background: #8880be;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    position: relative;
+    width: 500px;
+    padding: 50px;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.progress-circular {
+    position: relative;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background: conic-gradient(#880bea 30deg, #ededed 0deg);
+}
+
+.value {
+    font-size: 60px;
+}
